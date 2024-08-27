@@ -31,7 +31,7 @@ This project is a Dockerized Node.js application using Express and MongoDB. The 
     ```bash
     docker-compose up --build
 
-2. **Access the Application: Open your browser and go to 'http://localhost:3000'.**
+2. **Access the Application: Open your browser and go to `http://localhost:3000`.**
 
 ## MongoDB
 **MongoDB URI:** The app connects to MongoDB using the URI `mongodb://mongodb:27017/mydatabase.`
@@ -39,4 +39,4 @@ This project is a Dockerized Node.js application using Express and MongoDB. The 
 
 ## Troubleshooting
 **Port Conflicts:** Ensure that port `3000` for the app and `27017` for MongoDB are not being used by another application on your machine.
-**MongoDB Connection:** If the app is unable to connect to MongoDB, ensure the service is running and accessible at `mongodb://mongodb:27017.`
+**MongoDB Connection:** If the app is unable to connect to MongoDB, ensure the service is running and accessible at `mongodb://mongodb:27017`.
